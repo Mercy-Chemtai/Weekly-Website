@@ -1,0 +1,32 @@
+.logo{
+ display: flex;
+ gap: 80%;
+
+ 
+}
+.page1{
+font-size: 20px;
+display:flex;
+flex-direction: row;
+background-color:rgb(189,188,191);
+height:940px;
+
+}
+.button{
+background-color: black;
+color: wheat;
+font-size: 20px;
+}
+.subpage{
+   margin: 10%;
+   font-size: 35px;
+   
+
+}
+.image1{
+    object-fit:cover;
+    margin: 15px;
+    height: 50%;
+    padding-right: 5%;
+    margin-bottom: 20px;
+}

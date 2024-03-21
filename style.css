@@ -1,7 +1,10 @@
 .logo{
  display: flex;
  gap: 80%;
+ #container{
+  
 
+ }
  
 }
 .page1{
@@ -78,16 +81,116 @@ font-size: 20px;
   }
   .page3{
     display:flex;
+
     
     
   }
-  .page3images{
-    z-index: 2;
-    border-radius: 20%;
-   border-image: 1px;
-   border-radius: 20px;
-   
+  .yoga4{
+    border-radius: 50%;
+    width: 300px;
+    padding-left: 20%;
+    
+  }
+  .page4{
+    height: px
+  }
+  .subpage4{
+    margin-left: 10%;
+    padding-bottom: 30%;
+    
+  }
+  .yoga41{
+    border-radius:50%;
+    width: 300px;
+    margin-left: 40%;
+    
+  }
+  .yoga42{
+    border-radius:20%;
+    width: 100px;
+    margin-left: 40%;
+  }
+  .yog4{
+    display: flex;
+    background-color:rgb(204,211,219);
+    height: 200px;
+    
+    
+  }
+  .p{
+    padding-left: 30%;
+    width: 500px;
   }
   .subimage{
+    border-radius:50%;
+    width: 10%;
+    z-index: 2;
+    position: relative;
+  
+  }
+  .subimage1{
+    border-radius:50%;
+    z-index: 1;
+    position: relative;
+  }
+  .subpage5{
+   height: 
+
+  }
+  .subpage6{
+    display: flex;
+    gap:35%
+  }
+  .yoga4{
+    margin-left: 60%;
+    border-radius:50%;
+    position: relative;
+
+  }
+
+  
+  .cobra{
+    margin-right:50% ;
+    border-radius:50%;
+    margin-left: 10%;
+  }
+  .pink{
+    padding-left: 20%;
+  }
+  .words{
+    font-size: 30px;
+  }
+  .page6{
+    display: flex;
     
+  }
+  .page66{
+    background-color: rgb(224,229,235);
+    margin-left:20% ;
+    font-size: 30px;
+    padding: 20px;
+  }
+  .button{
+    font-size:30px ;
+  }
+  .page7{
+    height: 50%;
+    background-color: rgb(204,211,219);
+  }
+  .subpage7{
+    display: flex;
+    
+  }
+  .imagess7{
+    margin-right:50% ;
+    border-radius:50px;
+    margin-left: 10%;
+  }
+  .subadder{
+    padding-left: 30%;
+    font-size: 30px;
+    padding-right: 30%;
+  }
+  .white{
+    padding-right: 200px;
   }

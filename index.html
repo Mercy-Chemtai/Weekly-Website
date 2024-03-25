@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+       let d = new Date()
+       alert("Today's date is"+d);
+      </script>
+      
+       
+      
 </head>
 <body>
 <div id="container">
@@ -12,12 +19,18 @@
  <div class="logo">
 
     <img src="images/logo.png">
-     <div id="menuToggle">
-      <input type="checkbox"   />
-      <span></span>
-      <span></span>
-      <span></span>
+     <div class="off-screen-menu">
+      <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Contacts</li>
+      </ul>
     </div>
+    <nav class="ham-menu">
+     <span></span>
+     <span></span>
+     <span></span>
+    </nav>
     
  </div>
   <div  class="page1">
@@ -75,6 +88,35 @@
       </div>
       
       <div class="page3">
+        <script type="text/javascript">
+
+          function moveleft()
+          {
+          document.getElementById('image').style.position="absolute";
+          document.getElementById('image').style.left="0";
+          }
+          function moveback()
+          {
+          document.getElementById('image').style.position="absolute";
+          }
+          
+          
+          </script>
+          
+          
+          
+          
+          
+          <body>
+          
+          <img id="image" src="./face.gif"
+          onclick="moveleft()"
+          onclick="moveback()" />
+          
+          </body>
+          </html>
+          
+          
       
         <div  class="page3images">
         <img src="images/imagaes.jpg" class="subimage1" width="600px">
@@ -177,7 +219,7 @@
     <div>
       <img src="images/images7.jpg" width="890px"class="imagess7">
     </div>
-  
+    </div>
     
     <div  class="page8">
     <div  class="page88">
@@ -202,7 +244,7 @@
       <img src="images/contacts.png">
       </div>
     </div>
-    </div>
+    
 
 
 </div>
